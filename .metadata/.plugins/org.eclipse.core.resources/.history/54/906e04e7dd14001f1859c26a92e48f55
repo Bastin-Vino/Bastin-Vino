@@ -1,0 +1,8 @@
+Feature: Login with valid credentials
+
+Scenario:
+When open browser
+Given enter valid username
+And enter valid password
+And click login
+Then navigate to home page

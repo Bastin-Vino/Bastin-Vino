@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucumberTestRunner" project="cucumbertest" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Runnerclasspack.CucumberTestRunner" time="0.127">
+    <testsuite name="feature to test Login funtionality with valid credentials" time="0.127">
+      <testcase name="Check Login success with valid credentials" classname="feature to test Login funtionality with valid credentials" time="0.127">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'open browser' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("open browser")
+public void open_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("goto login page")
+public void goto_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("enter valid username")
+public void enter_valid_username() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("enter valid password")
+public void enter_valid_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("click login")
+public void click_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("navigate to home page")
+public void navigate_to_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

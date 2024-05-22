@@ -1,0 +1,17 @@
+Feature: feature to test Login funtionality with valid credentials
+
+  Scenario: Check Login success with valid credentials
+    When open browser
+    And goto login page
+    Given enter valid username
+    And enter valid password
+    And click login
+    Then navigate to home page
+    
+    Scenario: Check Login success with valid credentials
+    When open browser
+    And goto login page
+    Given enter valid username
+    And enter valid password
+    And click login
+    Then navigate to home page

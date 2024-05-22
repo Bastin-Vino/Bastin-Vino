@@ -1,0 +1,20 @@
+@testfeature
+Feature: feature to test Login funtionality with valid credentials
+
+  @test1
+  Scenario: Check Login success with valid credentials
+    When open browser
+    And goto login page
+    Given enter valid username
+    And enter valid password
+    And click login
+    Then navigate to home page
+    
+    @test2
+    Scenario: Check Login success with valid credentials2
+    When open browser
+    And goto login page
+    Given enter valid username
+    And enter valid password
+    And click login
+    Then navigate to home page

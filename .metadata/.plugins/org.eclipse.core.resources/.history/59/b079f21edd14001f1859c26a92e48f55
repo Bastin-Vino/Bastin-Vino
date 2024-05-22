@@ -1,0 +1,39 @@
+package loginsample;
+
+import io.cucumber.java.en.*;
+
+public class LoginStepDefenition {
+	
+	@When("open browser")
+	public void open_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("enter valid username")
+	public void enter_valid_username() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("enter valid password")
+	public void enter_valid_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("click login")
+	public void click_login() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("navigate to home page")
+	public void navigate_to_home_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+
+}

@@ -1,0 +1,42 @@
+package loginsample;
+
+import io.cucumber.java.en.*;
+
+public class LoginStepDefenition {
+	
+	@When("open browser")
+	public void open_browser() {
+	
+		System.out.println("Open browser");
+		
+	}
+
+	@Given("enter valid username")
+	public void enter_valid_username() {
+		
+		System.out.println("enter username");
+		
+	}
+
+	@And("enter valid password")
+	public void enter_valid_password() {
+		
+		System.out.println("enter password");
+	}
+
+	@And("click login")
+	public void click_login() {
+		
+		System.out.println("Click login");
+	}
+
+	@Then("navigate to home page")
+	public void navigate_to_home_page() {
+		
+		System.out.println("Navigate Home page");
+		
+	}
+
+
+
+}
